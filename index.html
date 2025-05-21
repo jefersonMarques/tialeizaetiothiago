@@ -1,0 +1,1205 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transporte Escolar | Tia Leiza e Tio Thiago | Piraquara</title>
+    <meta name="description"
+        content="Transporte escolar com segurança, pontualidade e carinho em Piraquara. Vagas limitadas para 2025.">
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://transporte-tialeiza.com.br/">
+    <meta property="og:title" content="Transporte Escolar | Tia Leiza e Tio Thiago | Piraquara">
+    <meta property="og:description"
+        content="Transporte escolar com segurança, pontualidade e carinho em Piraquara. Vagas limitadas para 2025.">
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://transporte-tialeiza.com.br/">
+    <meta property="twitter:title" content="Transporte Escolar | Tia Leiza e Tio Thiago | Piraquara">
+    <meta property="twitter:description"
+        content="Transporte escolar com segurança, pontualidade e carinho em Piraquara. Vagas limitadas para 2025.">
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Fredoka+One&display=swap"
+        rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            scroll-behavior: smooth;
+        }
+
+        .title-font {
+            font-family: 'Fredoka One', cursive;
+        }
+
+        .whatsapp-float {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            z-index: 100;
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+            0% {
+                transform: scale(1);
+            }
+
+            50% {
+                transform: scale(1.1);
+            }
+
+            100% {
+                transform: scale(1);
+            }
+        }
+
+        .accordion-content {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease-out;
+        }
+
+        .gradient-bg {
+            background: linear-gradient(135deg, #3b82f6 0%, #1d4ed8 100%);
+        }
+
+        .school-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(59, 130, 246, 0.2);
+        }
+
+        .testimonial-card {
+            transition: all 0.3s ease;
+        }
+
+        .testimonial-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+        }
+
+        .feature-icon {
+            transition: all 0.3s ease;
+        }
+
+        .feature-card:hover .feature-icon {
+            transform: scale(1.1);
+            color: #3b82f6;
+        }
+    </style>
+</head>
+
+<body class="bg-gradient-to-br from-blue-50 to-blue-100">
+    <!-- WhatsApp Float Button -->
+    <a href="https://wa.me/5541998367188?text=Olá%20Tia%20Leiza,%20gostaria%20de%20saber%20mais%20sobre%20o%20transporte%20escolar!"
+        class="whatsapp-float bg-green-500 hover:bg-green-600 text-white rounded-full p-4 transition-all duration-300 shadow-lg h-16 w-16 flex justify-center items-center">
+        <i class="fab fa-whatsapp text-3xl"></i>
+    </a>
+
+    <!-- Header -->
+    <header class="bg-blue-700 sticky top-0 z-50 shadow-md border-b border-blue-600">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20">
+
+                <!-- Ícone e Nome - Versão melhorada -->
+                <div class="flex items-center">
+                    <div class="relative">
+                        <!-- Ícone com imagem clicável -->
+                        <div id="img-icon"
+                            class="relative bg-gradient-to-r from-blue-400 to-blue-500 text-white rounded-full w-14 h-14 flex items-center justify-center mr-3 shadow-lg transform hover:rotate-12 transition-transform duration-300 ring-2 ring-white overflow-hidden cursor-pointer">
+                            <img src="/assets/img/transporte_escolar_piraquara.webp"
+                                class="w-full h-full object-cover rounded-full" alt="Transporte Escolar">
+                            <div
+                                class="absolute inset-0 rounded-full border-2 border-blue-300 opacity-30 pointer-events-none">
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <h1 class="text-xl font-bold text-white font-sans tracking-tight">
+                            <span class="bg-clip-text text-transparent bg-gradient-to-r from-blue-100 to-white">
+                                Tia Leiza & Tio Thiago
+                            </span>
+                        </h1>
+                        <p class="text-xs text-yellow-200 font-medium tracking-wide flex items-center">
+                            <span class="inline-block w-2 h-2 bg-yellow-300 rounded-full mr-1 animate-pulse"></span>
+                            Transporte Escolar Seguro
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Botão WhatsApp (Desktop) -->
+                <div class="hidden md:flex items-center space-x-6">
+                    <a href="https://wa.me/5541998367188?text=Olá%20Tia%20Leiza,%20gostaria%20de%20saber%20mais%20sobre%20o%20transporte%20escolar!"
+                        class="bg-green-500 hover:bg-green-600 text-white font-semibold py-2.5 px-5 rounded-md inline-flex items-center transition-all duration-200 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5">
+                        <i class="fab fa-whatsapp mr-2 text-white text-lg"></i>
+                        WhatsApp
+                    </a>
+                    <button onclick="openPixModal()"
+                        class="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2.5 px-5 rounded-md inline-flex items-center transition-colors duration-200 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5">
+                        <i class="fas fa-qrcode mr-2 text-white text-lg"></i>
+                        Chave PIX
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="pt-16 md:pt-20">
+        <div class="max-w-7xl mx-auto px-4 py-12 md:py-16 flex flex-col md:flex-row items-center">
+            <div class="md:w-1/2 mb-10 md:mb-0 md:pr-10">
+                <h2 class="text-4xl md:text-5xl font-bold text-blue-900 mb-6 title-font leading-tight">
+                    Transporte escolar com <span class="text-blue-600">segurança</span>, <span
+                        class="text-blue-600">pontualidade</span> e <span class="text-blue-600">carinho</span> em
+                    Piraquara
+                </h2>
+                <p class="text-gray-700 mb-8 text-lg">
+                    Há mais de 10 anos levando e trazendo seus filhos com todo o cuidado que eles merecem. Motoristas
+                    experientes, veículos equipados e monitoria dedicada.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4">
+                    <a href="https://wa.me/5541998367188?text=Olá%20Tia%20Leiza,%20gostaria%20de%20saber%20mais%20sobre%20o%20transporte%20escolar!"
+                        class="bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white font-bold py-4 px-8 rounded-lg inline-flex items-center justify-center transition-all duration-300 shadow-lg hover:shadow-xl">
+                        <i class="fab fa-whatsapp mr-3 text-xl"></i> Falar agora com a Tia Leiza
+                    </a>
+
+                    <!-- NOVO Botão Chave PIX -->
+                    <button onclick="openPixModal()"
+                        class="block md:hidden bg-blue-600 hover:bg-blue-700 text-white font-bold py-4 px-8 rounded-lg inline-flex items-center justify-center transition-all duration-300 shadow-lg hover:shadow-xl">
+                        <i class="fas fa-qrcode mr-3 text-xl"></i> Chave PIX
+                    </button>
+
+                    <a href="#contato"
+                        class="bg-white hover:bg-gray-100 text-blue-600 font-bold py-4 px-8 rounded-lg inline-flex items-center justify-center border-2 border-blue-600 transition-all duration-300 shadow-md hover:shadow-lg">
+                        <i class="fas fa-map-marker-alt mr-3 text-xl"></i> Ver rotas
+                    </a>
+                </div>
+
+
+                <div class="mt-10 grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <div class="flex items-center bg-white p-3 rounded-lg shadow-sm">
+                        <div class="bg-blue-100 w-8 h-8 flex items-center justify-center rounded-full mr-3">
+                            <i class="fas fa-check-circle text-blue-600 text-sm leading-none"></i>
+                        </div>
+                        <span class="text-sm font-medium">Segurança em primeiro lugar</span>
+                    </div>
+                    <div class="flex items-center bg-white p-3 rounded-lg shadow-sm">
+                        <div class="bg-blue-100 w-8 h-8 flex items-center justify-center rounded-full mr-3">
+                            <i class="fas fa-check-circle text-blue-600 text-sm leading-none"></i>
+                        </div>
+                        <span class="text-sm font-medium">Monitor(a) dedicado</span>
+                    </div>
+                </div>
+
+            </div>
+            <div class="md:w-1/2 relative">
+                <div
+                    class="bg-gradient-to-br from-blue-500 to-blue-600 rounded-2xl overflow-hidden shadow-xl h-96 flex items-center justify-center relative">
+                    <img src="/assets/img/transporte_escolar_piraquara_tia_leiza_tio_thiago.png">
+                </div>
+
+                <div class="absolute -bottom-6 -left-6 bg-white p-4 rounded-xl shadow-lg hidden md:block">
+                    <div class="flex items-center">
+                        <div class="bg-yellow-400 w-8 h-8 flex items-center justify-center rounded-full mr-3">
+                            <i class="fas fa-star text-yellow-800 text-sm leading-none"></i>
+                        </div>
+
+                        <div>
+                            <p class="font-bold text-lg">5.0</p>
+                            <p class="text-xs text-gray-600">Avaliação dos pais</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="absolute -top-6 -right-6 bg-white p-4 rounded-xl shadow-lg hidden md:block">
+                    <div class="flex items-center">
+                        <div class="bg-blue-100 flex w-8 h-8 items-center justify-center rounded-full mr-3">
+                            <i class="fas fa-child text-blue-600 text-base leading-none"></i>
+                        </div>
+                        <div>
+                            <p class="font-bold text-lg">10+</p>
+                            <p class="text-xs text-gray-600">Anos de experiência</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Escolas Section -->
+    <section id="escolas" class="py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="text-center mb-12">
+                <span
+                    class="inline-block bg-blue-100 text-blue-600 px-4 py-1 rounded-full text-sm font-medium mb-3">ESCOLAS
+                    ATENDIDAS</span>
+                <h2 class="text-3xl md:text-4xl font-bold text-blue-900 title-font">Nossas rotas escolares</h2>
+                <p class="text-gray-600 max-w-2xl mx-auto mt-3">Atendemos as principais escolas de Piraquara com
+                    horários planejados para sua comodidade</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+                <!-- Colégio Estadual Paulo Leminski -->
+                <div
+                    class="bg-white rounded-xl p-6 border border-gray-200 shadow-sm hover:shadow-md transition-all duration-300 school-card">
+                    <div class="flex items-center mb-4">
+                        <div
+                            class="bg-gradient-to-r from-blue-500 to-blue-600 text-white p-3 rounded-xl mr-4 shadow-md">
+                            <i class="fas fa-school text-xl"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-blue-900">Colégio Estadual Paulo Leminski</h3>
+                    </div>
+
+                    <div class="space-y-3">
+                        <!-- Manhã -->
+                        <div class="bg-blue-50 p-4 rounded-lg border border-blue-200">
+                            <p class="font-semibold text-blue-800 mb-1">Período da Manhã</p>
+                            <p class="text-sm text-gray-700"><strong>Saída:</strong> 07:00</p>
+                            <p class="text-sm text-gray-700"><strong>Retorno:</strong> 12:30</p>
+                        </div>
+                        <!-- Tarde -->
+                        <div class="bg-yellow-50 p-4 rounded-lg border border-yellow-200">
+                            <p class="font-semibold text-yellow-800 mb-1">Período da Tarde</p>
+                            <p class="text-sm text-gray-700"><strong>Saída:</strong> 12:50</p>
+                            <p class="text-sm text-gray-700"><strong>Retorno:</strong> 18:00</p>
+                        </div>
+                        <!-- Localização -->
+                        <p class="flex items-center text-gray-700 mt-2">
+                            <span
+                                class="bg-blue-100 text-blue-600 p-2 w-8 h-8 flex items-center justify-center rounded-full mr-3">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </span>
+                            Tarumã - Curitiba
+                        </p>
+                    </div>
+
+                    <div class="mt-4 pt-4 border-t border-gray-100">
+                        <button onclick="openMapModal()"
+                            class="text-blue-600 hover:text-blue-800 font-medium text-sm inline-flex items-center transition-colors">
+                            Ver mapa <i class="fas fa-arrow-right ml-1"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Escola Municipal Madre Antônia -->
+                <div
+                    class="bg-white rounded-xl p-6 border border-gray-200 shadow-sm hover:shadow-md transition-all duration-300 school-card">
+                    <div class="flex items-center mb-4">
+                        <div
+                            class="bg-gradient-to-r from-blue-500 to-blue-600 text-white p-3 rounded-xl mr-4 shadow-md">
+                            <i class="fas fa-school text-xl"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-blue-900">Escola Municipal Madre Antônia</h3>
+                    </div>
+
+                    <div class="space-y-3">
+                        <!-- Manhã -->
+                        <div class="bg-blue-50 p-4 rounded-lg border border-blue-200">
+                            <p class="font-semibold text-blue-800 mb-1">Período da Manhã</p>
+                            <p class="text-sm text-gray-700"><strong>Saída:</strong> 06:50</p>
+                            <p class="text-sm text-gray-700"><strong>Retorno:</strong> 12:10</p>
+                        </div>
+                        <!-- Tarde -->
+                        <div class="bg-yellow-50 p-4 rounded-lg border border-yellow-200">
+                            <p class="font-semibold text-yellow-800 mb-1">Período da Tarde</p>
+                            <p class="text-sm text-gray-700"><strong>Saída:</strong> 13:00</p>
+                            <p class="text-sm text-gray-700"><strong>Retorno:</strong> 18:10</p>
+                        </div>
+                        <!-- Localização -->
+                        <p class="flex items-center text-gray-700 mt-2">
+                            <span
+                                class="bg-blue-100 text-blue-600 p-2 w-8 h-8 flex items-center justify-center rounded-full mr-3">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </span>
+                            Tarumã - Curitiba
+                        </p>
+                    </div>
+
+                    <div class="mt-4 pt-4 border-t border-gray-100">
+                        <button onclick="openMapModal()"
+                            class="text-blue-600 hover:text-blue-800 font-medium text-sm inline-flex items-center transition-colors">
+                            Ver mapa <i class="fas fa-arrow-right ml-1"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Colégio Maria Balbina Costa Dias -->
+                <div
+                    class="bg-white rounded-xl p-6 border border-gray-200 shadow-sm hover:shadow-md transition-all duration-300 school-card">
+                    <div class="flex items-center mb-4">
+                        <div
+                            class="bg-gradient-to-r from-blue-500 to-blue-600 text-white p-3 rounded-xl mr-4 shadow-md">
+                            <i class="fas fa-school text-xl"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-blue-900">Colégio Maria Balbina Costa Dias</h3>
+                    </div>
+
+                    <div class="space-y-3">
+                        <!-- Manhã -->
+                        <div class="bg-blue-50 p-4 rounded-lg border border-blue-200">
+                            <p class="font-semibold text-blue-800 mb-1">Período da Manhã</p>
+                            <p class="text-sm text-gray-700"><strong>Saída:</strong> 07:10</p>
+                            <p class="text-sm text-gray-700"><strong>Retorno:</strong> 13:30</p>
+                        </div>
+                        <!-- Tarde -->
+                        <div class="bg-yellow-50 p-4 rounded-lg border border-yellow-200">
+                            <p class="font-semibold text-yellow-800 mb-1">Período da Tarde</p>
+                            <p class="text-sm text-gray-700"><strong>Saída:</strong> 13:30</p>
+                            <p class="text-sm text-gray-700"><strong>Retorno:</strong> 18:30</p>
+                        </div>
+                        <!-- Localização -->
+                        <p class="flex items-center text-gray-700 mt-2">
+                            <span
+                                class="bg-blue-100 text-blue-600 p-2 w-8 h-8 flex items-center justify-center rounded-full mr-3">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </span>
+                            Tarumã - Curitiba
+                        </p>
+                    </div>
+
+                    <div class="mt-4 pt-4 border-t border-gray-100">
+                        <button onclick="openMapModal()"
+                            class="text-blue-600 hover:text-blue-800 font-medium text-sm inline-flex items-center transition-colors">
+                            Ver mapa <i class="fas fa-arrow-right ml-1"></i>
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div
+                class="mt-16 text-center bg-gradient-to-br from-yellow-50 to-yellow-100 rounded-2xl p-8 border-2 border-yellow-300 relative overflow-hidden">
+                <!-- Decoração de fundo -->
+                <div class="absolute -top-10 -right-10 w-32 h-32 bg-yellow-200 rounded-full opacity-20"></div>
+                <div class="absolute -bottom-5 -left-5 w-24 h-24 bg-yellow-300 rounded-full opacity-20"></div>
+
+                <!-- Selo Transporte Legalizado - Versão Premium -->
+                <div class="flex justify-center mb-6 transform hover:scale-105 transition-transform duration-300">
+                    <div class="relative inline-block">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-32 w-32 mr-1 text-yellow-500"
+                            viewBox="0 0 20 20" fill="currentColor">
+                            <path fill-rule="evenodd"
+                                d="M6.267 3.455a3.066 3.066 0 001.745-.723 3.066 3.066 0 013.976 0 3.066 3.066 0 001.745.723 3.066 3.066 0 012.812 2.812c.051.643.304 1.254.723 1.745a3.066 3.066 0 010 3.976 3.066 3.066 0 00-.723 1.745 3.066 3.066 0 01-2.812 2.812 3.066 3.066 0 00-1.745.723 3.066 3.066 0 01-3.976 0 3.066 3.066 0 00-1.745-.723 3.066 3.066 0 01-2.812-2.812 3.066 3.066 0 00-.723-1.745 3.066 3.066 0 010-3.976 3.066 3.066 0 00.723-1.745 3.066 3.066 0 012.812-2.812zm7.44 5.252a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                                clip-rule="evenodd"></path>
+                        </svg>
+                    </div>
+                </div>
+
+                <h3 class="text-2xl font-bold text-yellow-900 mb-3 relative z-10">
+                    <span class="bg-clip-text text-transparent bg-gradient-to-r from-yellow-600 to-amber-700">
+                        Certificação e Veículo Legalizado
+                    </span>
+                </h3>
+
+                <p class="text-yellow-800 mb-8 max-w-2xl mx-auto relative z-10 text-lg leading-relaxed">
+                    Nossa equipe possui certificação especializada e todos os veículos passam por rigorosas vistorias
+                    periódicas,
+                    atendendo a todas as normas de segurança para transporte escolar. Segurança e tranquilidade para sua
+                    família
+                    não são apenas promessas, são nossa garantia.
+                </p>
+
+                <div class="relative z-10">
+                    <a href="https://wa.me/5541998367188?text=Olá%20Tia%20Leiza,%20gostaria%20de%20saber%20mais%20sobre%20a%20documentação%20do%20transporte%20escolar."
+                        class="inline-flex items-center bg-gradient-to-r from-yellow-500 to-yellow-600 hover:from-yellow-500 hover:to-yellow-600 text-white font-semibold py-3 px-8 rounded-full transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1">
+                        Quero saber mais
+                    </a>
+
+                    <p class="mt-4 text-sm text-yellow-600 flex items-center justify-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mr-1" viewBox="0 0 20 20"
+                            fill="currentColor">
+                            <path fill-rule="evenodd"
+                                d="M6.267 3.455a3.066 3.066 0 001.745-.723 3.066 3.066 0 013.976 0 3.066 3.066 0 001.745.723 3.066 3.066 0 012.812 2.812c.051.643.304 1.254.723 1.745a3.066 3.066 0 010 3.976 3.066 3.066 0 00-.723 1.745 3.066 3.066 0 01-2.812 2.812 3.066 3.066 0 00-1.745.723 3.066 3.066 0 01-3.976 0 3.066 3.066 0 00-1.745-.723 3.066 3.066 0 01-2.812-2.812 3.066 3.066 0 00-.723-1.745 3.066 3.066 0 010-3.976 3.066 3.066 0 00.723-1.745 3.066 3.066 0 012.812-2.812zm7.44 5.252a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                                clip-rule="evenodd" />
+                        </svg>
+                        Documentação sempre atualizada e disponível para consulta
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Diferenciais Section -->
+    <section id="diferenciais" class="py-16 gradient-bg text-white">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="text-center mb-12">
+                <span
+                    class="inline-block bg-blue-400 bg-opacity-20 text-white px-4 py-1 rounded-full text-sm font-medium mb-3">POR
+                    QUE NOS ESCOLHER?</span>
+                <h2 class="text-3xl md:text-4xl font-bold text-white title-font mb-3">Nossos diferenciais</h2>
+                <p class="text-blue-100 max-w-2xl mx-auto">Tudo que seu filho precisa para um transporte seguro e
+                    confortável</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Diferencial 1 -->
+                <div
+                    class="bg-white bg-opacity-10 rounded-xl p-6 border border-white border-opacity-20 backdrop-blur-sm feature-card">
+                    <div class="flex items-center mb-4">
+                        <div
+                            class="h-14 w-14 flex items-center justify-center bg-white bg-opacity-20 p-3 rounded-xl mr-4 feature-icon">
+                            <i class="fas fa-user-shield text-2xl text-white"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-white">Motoristas experientes</h3>
+                    </div>
+                    <p class="text-blue-100">
+                        Nossos motoristas são treinados e possuem anos de experiência no transporte escolar, garantindo
+                        segurança em todas as viagens.
+                    </p>
+                </div>
+
+                <!-- Diferencial 2 -->
+                <div
+                    class="bg-white bg-opacity-10 rounded-xl p-6 border border-white border-opacity-20 backdrop-blur-sm feature-card">
+                    <div class="flex items-center mb-4">
+                        <div
+                            class="h-14 w-14 flex items-center justify-center bg-white bg-opacity-20 p-3 rounded-xl mr-4 feature-icon">
+                            <i class="fas fa-user-graduate text-2xl text-white"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-white">Monitor(a) dedicado</h3>
+                    </div>
+                    <p class="text-blue-100">
+                        Além do motorista, temos um monitor(a) para cuidar das crianças durante todo o trajeto,
+                        garantindo organização e atenção.
+                    </p>
+                </div>
+
+                <!-- Diferencial 3 -->
+                <div
+                    class="bg-white bg-opacity-10 rounded-xl p-6 border border-white border-opacity-20 backdrop-blur-sm feature-card">
+                    <div class="flex items-center mb-4">
+                        <div
+                            class="h-14 w-14 flex items-center justify-center bg-white bg-opacity-20 p-3 rounded-xl mr-4 feature-icon">
+                            <i class="fas fa-comment-dots text-2xl text-white"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-white">Comunicação via WhatsApp</h3>
+                    </div>
+                    <p class="text-blue-100">
+                        Grupo de WhatsApp com os pais para informar sobre atrasos, eventos e qualquer ocorrência
+                        importante.
+                    </p>
+                </div>
+
+                <!-- Diferencial 4 -->
+                <div
+                    class="bg-white bg-opacity-10 rounded-xl p-6 border border-white border-opacity-20 backdrop-blur-sm feature-card">
+                    <div class="flex items-center mb-4">
+                        <div
+                            class="h-14 w-14 flex items-center justify-center bg-white bg-opacity-20 p-3 rounded-xl mr-4 feature-icon">
+                            <i class="fas fa-broom text-2xl text-white"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-white">Veículo higienizado</h3>
+                    </div>
+                    <p class="text-blue-100">
+                        Nossas vans passam por limpeza diária e higienização periódica, garantindo um ambiente saudável
+                        para as crianças.
+                    </p>
+                </div>
+
+                <!-- Diferencial 5 -->
+                <div
+                    class="bg-white bg-opacity-10 rounded-xl p-6 border border-white border-opacity-20 backdrop-blur-sm feature-card">
+                    <div class="flex items-center mb-4">
+                        <div
+                            class="h-14 w-14 flex items-center justify-center bg-white bg-opacity-20 p-3 rounded-xl mr-4 feature-icon">
+                            <i class="fas fa-snowflake text-2xl text-white"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-white">Ar-condicionado</h3>
+                    </div>
+                    <p class="text-blue-100">
+                        Todas nossas vans possuem ar-condicionado para garantir o conforto térmico das crianças em
+                        qualquer época do ano.
+                    </p>
+                </div>
+
+                <!-- Diferencial 6 -->
+                <div
+                    class="bg-white bg-opacity-10 rounded-xl p-6 border border-white border-opacity-20 backdrop-blur-sm feature-card">
+                    <div class="flex items-center mb-4">
+                        <div
+                            class="h-14 w-14 flex items-center justify-center bg-white bg-opacity-20 p-3 rounded-xl mr-4 feature-icon">
+                            <i class="fas fa-clock text-2xl text-white"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-white">Pontualidade</h3>
+                    </div>
+                    <p class="text-blue-100">
+                        Roteiro otimizado e horários rigorosamente cumpridos para que seu filho nunca se atrase para a
+                        escola.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Depoimentos Section -->
+    <section id="depoimentos" class="py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="text-center mb-12">
+                <span
+                    class="inline-block bg-blue-100 text-blue-600 px-4 py-1 rounded-full text-sm font-medium mb-3">DEPOIMENTOS</span>
+                <h2 class="text-3xl md:text-4xl font-bold text-blue-900 title-font">O que os pais dizem</h2>
+                <p class="text-gray-600 max-w-2xl mx-auto mt-3">A opinião de quem já confia no nosso trabalho</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <!-- Depoimento 1 -->
+                <div class="bg-white p-6 rounded-xl border border-gray-200 shadow-sm testimonial-card">
+                    <div class="flex items-center mb-4">
+                        <div
+                            class="bg-gradient-to-r from-blue-500 to-blue-600 text-white rounded-full w-14 h-14 flex items-center justify-center mr-4 shadow-md">
+                            <i class="fas fa-user text-xl"></i>
+                        </div>
+                        <div>
+                            <h3 class="font-bold text-blue-900">Juliana P.</h3>
+                            <div class="flex text-yellow-400">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-gray-700 italic relative pl-4">
+                        <span class="absolute left-0 top-0 text-3xl text-blue-200 font-serif leading-none">"</span>
+                        Confiamos de olhos fechados! Sempre pontuais e carinhosos com minha filha. A monitora é uma
+                        benção, cuida de cada criança como se fosse a única. Recomendo para todas as mães de Piraquara!
+                    </p>
+                </div>
+
+                <!-- Depoimento 2 -->
+                <div class="bg-white p-6 rounded-xl border border-gray-200 shadow-sm testimonial-card">
+                    <div class="flex items-center mb-4">
+                        <div
+                            class="bg-gradient-to-r from-blue-500 to-blue-600 text-white rounded-full w-14 h-14 flex items-center justify-center mr-4 shadow-md">
+                            <i class="fas fa-user text-xl"></i>
+                        </div>
+                        <div>
+                            <h3 class="font-bold text-blue-900">Rogério M.</h3>
+                            <div class="flex text-yellow-400">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-gray-700 italic relative pl-4">
+                        <span class="absolute left-0 top-0 text-3xl text-blue-200 font-serif leading-none">"</span>
+                        O transporte é impecável. Me sinto segura deixando meu filho com eles. O Tio Thiago é
+                        extremamente cuidadoso no trânsito e a Tia Leiza sempre manda mensagem quando chegam na escola.
+                        Nota 10!
+                    </p>
+                </div>
+
+                <!-- Depoimento 3 -->
+                <div class="bg-white p-6 rounded-xl border border-gray-200 shadow-sm testimonial-card">
+                    <div class="flex items-center mb-4">
+                        <div
+                            class="bg-gradient-to-r from-blue-500 to-blue-600 text-white rounded-full w-14 h-14 flex items-center justify-center mr-4 shadow-md">
+                            <i class="fas fa-user text-xl"></i>
+                        </div>
+                        <div>
+                            <h3 class="font-bold text-blue-900">Patrícia S.</h3>
+                            <div class="flex text-yellow-400">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-gray-700 italic relative pl-4">
+                        <span class="absolute left-0 top-0 text-3xl text-blue-200 font-serif leading-none">"</span>
+                        Uso o serviço há 3 anos e nunca tive problemas. Minha filha adora ir de van porque faz amizades
+                        e se sente cuidada. Quando precisei mudar o endereço de embarque, foram super flexíveis e
+                        entenderam minha situação.
+                    </p>
+                </div>
+
+                <!-- Depoimento 4 -->
+                <div class="bg-white p-6 rounded-xl border border-gray-200 shadow-sm testimonial-card">
+                    <div class="flex items-center mb-4">
+                        <div
+                            class="bg-gradient-to-r from-blue-500 to-blue-600 text-white rounded-full w-14 h-14 flex items-center justify-center mr-4 shadow-md">
+                            <i class="fas fa-user text-xl"></i>
+                        </div>
+                        <div>
+                            <h3 class="font-bold text-blue-900">Carlos A.</h3>
+                            <div class="flex text-yellow-400">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-gray-700 italic relative pl-4">
+                        <span class="absolute left-0 top-0 text-3xl text-blue-200 font-serif leading-none">"</span>
+                        Como pai solteiro, o transporte escolar foi a melhor solução que encontrei. O preço é justo e o
+                        serviço excelente. Meu filho chega em casa contando as brincadeiras que teve na van. Só tenho a
+                        agradecer!
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Localização Section -->
+    <section id="contato" class="py-16 bg-blue-50">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="text-center mb-12">
+                <span
+                    class="inline-block bg-blue-100 text-blue-600 px-4 py-1 rounded-full text-sm font-medium mb-3">ÁREA
+                    DE ATENDIMENTO</span>
+                <h2 class="text-3xl md:text-4xl font-bold text-blue-900 title-font">Nossa cobertura em Piraquara</h2>
+                <p class="text-gray-600 max-w-2xl mx-auto mt-3">Atendemos vários bairros da cidade com rotas planejadas
+                </p>
+            </div>
+
+            <div class="flex flex-col lg:flex-row gap-8">
+                <div class="lg:w-1/2">
+                    <div class="bg-gray-200 rounded-xl overflow-hidden flex items-center justify-center shadow-md">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d109564.56603919312!2d-49.15527889659857!3d-25.467573846465623!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94dcf30496279ff7%3A0xcc8477ab095d74dd!2sPiraquara%2C%20PR!5e1!3m2!1spt-BR!2sbr!4v1747773645264!5m2!1spt-BR!2sbr"
+                            width="650" height="480" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+
+                <div class="lg:w-1/2">
+                    <div class="bg-white rounded-xl p-8 h-full border border-gray-200 shadow-md">
+                        <h3 class="text-xl font-bold text-blue-900 mb-6">Bairros atendidos</h3>
+
+                        <ul class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
+                            <li class="flex items-start bg-blue-50 p-3 rounded-lg">
+                                <i class="fas fa-check-circle text-green-500 mt-1 mr-3"></i>
+                                <span class="text-gray-700 font-medium">Santa Mônica - Piraquara</span>
+                            </li>
+                            <li class="flex items-start bg-blue-50 p-3 rounded-lg">
+                                <i class="fas fa-check-circle text-green-500 mt-1 mr-3"></i>
+                                <span class="text-gray-700 font-medium">Guarituba - Piraquara</span>
+                            </li>
+                            <li class="flex items-start bg-blue-50 p-3 rounded-lg">
+                                <i class="fas fa-check-circle text-green-500 mt-1 mr-3"></i>
+                                <span class="text-gray-700 font-medium">Vila Nova - Piraquara</span>
+                            </li>
+                            <li class="flex items-start bg-blue-50 p-3 rounded-lg">
+                                <i class="fas fa-check-circle text-green-500 mt-1 mr-3"></i>
+                                <span class="text-gray-700 font-medium">Jardim amélia - Pinhais</span>
+                            </li>
+                            <li class="flex items-start bg-blue-50 p-3 rounded-lg">
+                                <i class="fas fa-check-circle text-green-500 mt-1 mr-3"></i>
+                                <span class="text-gray-700 font-medium">Tarumã - Curitiba</span>
+                            </li>
+                            <li class="flex items-start bg-blue-50 p-3 rounded-lg">
+                                <i class="fas fa-check-circle text-green-500 mt-1 mr-3"></i>
+                                <span class="text-gray-700 font-medium">Pineville - Pinhais</span>
+                            </li>
+                        </ul>
+
+                        <div class="bg-yellow-50 border-l-4 border-yellow-400 p-4 mb-6">
+                            <div class="flex">
+                                <div class="flex-shrink-0">
+                                    <i class="fas fa-info-circle text-yellow-400 mt-1 mr-3"></i>
+                                </div>
+                                <div>
+                                    <p class="text-sm text-yellow-700">
+                                        Consulte disponibilidade para seu bairro diretamente pelo WhatsApp. Respondemos
+                                        rapidamente!
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <a href="https://wa.me/5541998367188?text=Olá%20Tia%20Leiza,%20gostaria%20de%20saber%20se%20vocês%20atendem%20no%20meu%20bairro..."
+                            class="bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white font-bold py-3 px-6 rounded-lg inline-flex items-center justify-center transition-all duration-300 shadow-md hover:shadow-lg w-full">
+                            <i class="fab fa-whatsapp mr-2 text-xl"></i> Consultar meu bairro
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="py-16 gradient-bg text-white">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="text-center mb-12">
+                <span
+                    class="inline-block bg-white bg-opacity-20 text-white px-4 py-1 rounded-full text-sm font-medium mb-3">DÚVIDAS
+                    FREQUENTES</span>
+                <h2 class="text-3xl md:text-4xl font-bold text-white title-font">Perguntas frequentes</h2>
+                <p class="text-blue-100 max-w-2xl mx-auto mt-3">Tire suas dúvidas sobre nosso serviço de transporte
+                    escolar</p>
+            </div>
+
+            <div class="max-w-3xl mx-auto space-y-4">
+                <!-- Pergunta 1 -->
+                <div
+                    class="bg-white bg-opacity-10 rounded-xl overflow-hidden border border-white border-opacity-20 backdrop-blur-sm">
+                    <button
+                        class="accordion-button w-full text-left p-5 font-bold flex justify-between items-center hover:bg-white hover:bg-opacity-5 transition-colors">
+                        <span>Quais bairros vocês atendem?</span>
+                        <i class="fas fa-chevron-down transition-transform duration-300"></i>
+                    </button>
+                    <div class="accordion-content bg-white bg-opacity-5 px-5 border-t border-white border-opacity-10">
+                        <div class="py-4">
+                            <p>Atendemos vários bairros de Piraquara, incluindo Centro, São Cristóvão, Santa Rosa,
+                                Jardim das Américas, Guarituba e Bairro Alto. Se o seu bairro não está na lista, entre
+                                em contato para verificarmos a possibilidade de atender.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Pergunta 2 -->
+                <div
+                    class="bg-white bg-opacity-10 rounded-xl overflow-hidden border border-white border-opacity-20 backdrop-blur-sm">
+                    <button
+                        class="accordion-button w-full text-left p-5 font-bold flex justify-between items-center hover:bg-white hover:bg-opacity-5 transition-colors">
+                        <span>A van tem monitor?</span>
+                        <i class="fas fa-chevron-down transition-transform duration-300"></i>
+                    </button>
+                    <div class="accordion-content bg-white bg-opacity-5 px-5 border-t border-white border-opacity-10">
+                        <div class="py-4">
+                            <p>Sim, todas nossas vans possuem um monitor(a) dedicado(a) além do motorista. O monitor(a)
+                                é responsável por ajudar as crianças a entrar e sair da van com segurança, organizar os
+                                assentos e garantir que todos estejam confortáveis durante o trajeto.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Pergunta 3 -->
+                <div
+                    class="bg-white bg-opacity-10 rounded-xl overflow-hidden border border-white border-opacity-20 backdrop-blur-sm">
+                    <button
+                        class="accordion-button w-full text-left p-5 font-bold flex justify-between items-center hover:bg-white hover:bg-opacity-5 transition-colors">
+                        <span>Como funciona o pagamento?</span>
+                        <i class="fas fa-chevron-down transition-transform duration-300"></i>
+                    </button>
+                    <div class="accordion-content bg-white bg-opacity-5 px-5 border-t border-white border-opacity-10">
+                        <div class="py-4">
+                            <p>O pagamento é mensal, realizado até o 5º dia útil de cada mês. Aceitamos transferência
+                                bancária, PIX ou dinheiro. Oferecemos desconto para pagamentos antecipados (até o último
+                                dia do mês anterior).</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Pergunta 4 -->
+                <div
+                    class="bg-white bg-opacity-10 rounded-xl overflow-hidden border border-white border-opacity-20 backdrop-blur-sm">
+                    <button
+                        class="accordion-button w-full text-left p-5 font-bold flex justify-between items-center hover:bg-white hover:bg-opacity-5 transition-colors">
+                        <span>Tem desconto para irmãos?</span>
+                        <i class="fas fa-chevron-down transition-transform duration-300"></i>
+                    </button>
+                    <div class="accordion-content bg-white bg-opacity-5 px-5 border-t border-white border-opacity-10">
+                        <div class="py-4">
+                            <p>Sim, oferecemos 15% de desconto para o segundo irmão e 20% a partir do terceiro irmão. Os
+                                descontos são cumulativos com outras promoções que eventualmente estejam ocorrendo.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Pergunta 5 -->
+                <div
+                    class="bg-white bg-opacity-10 rounded-xl overflow-hidden border border-white border-opacity-20 backdrop-blur-sm">
+                    <button
+                        class="accordion-button w-full text-left p-5 font-bold flex justify-between items-center hover:bg-white hover:bg-opacity-5 transition-colors">
+                        <span>Como é feito o contato diário?</span>
+                        <i class="fas fa-chevron-down transition-transform duration-300"></i>
+                    </button>
+                    <div class="accordion-content bg-white bg-opacity-5 px-5 border-t border-white border-opacity-10">
+                        <div class="py-4">
+                            <p>Mantemos um grupo de WhatsApp com todos os pais onde informamos sobre atrasos, eventos
+                                especiais e qualquer ocorrência. Além disso, enviamos mensagem individual quando a
+                                criança chega na escola e quando sai para voltar para casa.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Formulário Section -->
+    <section class="py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-4 max-w-3xl">
+            <div class="bg-gradient-to-br from-blue-50 to-blue-100 rounded-2xl p-8 border border-blue-200 shadow-lg">
+                <div class="text-center mb-8">
+                    <div class="bg-blue-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-envelope text-blue-600 text-2xl"></i>
+                    </div>
+                    <h2 class="text-2xl font-bold text-blue-900 title-font mb-2">Precisa de mais informações?</h2>
+                    <p class="text-gray-700">
+                        Preencha o formulário abaixo que entraremos em contato com todas as informações que você
+                        precisa.
+                    </p>
+                </div>
+
+                <form id="contact-form" class="space-y-5">
+                    <div>
+                        <label for="name" class="block text-gray-700 font-medium mb-2">Nome do responsável *</label>
+                        <input type="text" id="name" name="name" required
+                            class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all">
+                    </div>
+
+                    <div>
+                        <label for="phone" class="block text-gray-700 font-medium mb-2">Telefone/WhatsApp *</label>
+                        <input type="tel" id="phone" name="phone" required
+                            class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all">
+                    </div>
+
+                    <div>
+                        <label for="school" class="block text-gray-700 font-medium mb-2">Escola da criança *</label>
+                        <input type="text" id="school" name="school" required
+                            class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all">
+                    </div>
+
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
+                        <div>
+                            <label for="neighborhood" class="block text-gray-700 font-medium mb-2">Bairro *</label>
+                            <input type="text" id="neighborhood" name="neighborhood" required
+                                class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all">
+                        </div>
+                        <div>
+                            <label for="age" class="block text-gray-700 font-medium mb-2">Idade da criança *</label>
+                            <input type="number" id="age" name="age" min="3" max="18" required
+                                class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all">
+                        </div>
+                    </div>
+
+                    <div>
+                        <label for="message" class="block text-gray-700 font-medium mb-2">Mensagem (opcional)</label>
+                        <textarea id="message" name="message" rows="3"
+                            class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all"></textarea>
+                    </div>
+
+                    <button type="submit"
+                        class="w-full bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white font-bold py-4 px-6 rounded-lg transition-all duration-300 shadow-md hover:shadow-lg mt-4">
+                        <i class="fab fa-whatsapp mr-2 text-xl"></i> Enviar mensagem
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <div id="image-modal" class="fixed inset-0 bg-black bg-opacity-70 flex items-center justify-center z-50 hidden">
+        <div class="relative z-10" id="modal-image-container">
+            <img src="/assets/img/transporte_escolar_piraquara.webp" alt="Transporte Ampliado"
+                class="w-80 h-80 object-cover rounded-full border-4 border-white shadow-2xl animate-scale-in">
+        </div>
+    </div>
+
+    <!--MODAL PIX-->
+    <div id="pix-modal" class="fixed inset-0 bg-black bg-opacity-70 flex items-center justify-center z-50 hidden">
+        <div class="bg-white rounded-2xl p-8 max-w-sm w-full text-center shadow-xl relative">
+            <button onclick="closePixModal()" class="absolute top-2 right-2 text-gray-400 hover:text-gray-600">
+                <i class="fas fa-times text-xl"></i>
+            </button>
+
+            <div class="mb-6">
+                <i class="fas fa-piggy-bank text-4xl text-green-500 mb-4"></i>
+                <h2 class="text-2xl font-bold text-blue-900 mb-2">Pagamento via PIX</h2>
+                <p class="text-gray-600">Siga os passos abaixo para concluir seu pagamento com segurança:</p>
+            </div>
+
+            <ol class="text-left space-y-4 mb-6">
+                <li class="flex items-center">
+                    <div
+                        class="flex-shrink-0 bg-blue-600 text-white rounded-full w-8 h-8 flex items-center justify-center font-bold mr-3">
+                        1
+                    </div>
+                    <span>Copie a chave PIX abaixo.</span>
+                </li>
+                <li class="flex items-center">
+                    <div
+                        class="flex-shrink-0 bg-blue-600 text-white rounded-full w-8 h-8 flex items-center justify-center font-bold mr-3">
+                        2
+                    </div>
+                    <span>Realize o pagamento no seu banco ou aplicativo.</span>
+                </li>
+                <li class="flex items-center">
+                    <div
+                        class="flex-shrink-0 bg-blue-600 text-white rounded-full w-8 h-8 flex items-center justify-center font-bold mr-3">
+                        3
+                    </div>
+                    <span>Envie o comprovante para a Tia Leiza pelo WhatsApp.</span>
+                </li>
+            </ol>
+
+            <div class="bg-blue-50 p-4 rounded-lg border border-blue-200 font-mono text-blue-800 mb-4 select-all"
+                id="pix-key">
+                41998367188
+            </div>
+
+            <button onclick="copyPixKey()"
+                class="w-full mb-3 bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white font-bold py-3 px-6 rounded-lg inline-flex items-center justify-center transition-all duration-300 shadow-md hover:shadow-lg">
+                <i class="fas fa-copy mr-2"></i> Copiar Chave
+            </button>
+
+            <!-- Botão de enviar para WhatsApp -->
+            <a href="https://wa.me/5541998367188?text=Olá%20Tia%20Leiza,%20acabei%20de%20realizar%20o%20pagamento%20via%20PIX.%20Segue%20o%20comprovante."
+                class="w-full bg-gradient-to-r from-blue-500 to-blue-600 hover:from-blue-600 hover:to-blue-700 text-white font-bold py-3 px-6 rounded-lg inline-flex items-center justify-center transition-all duration-300 shadow-md hover:shadow-lg">
+                <i class="fab fa-whatsapp mr-2"></i> Enviar comprovante
+            </a>
+
+            <p id="copy-success" class="text-green-600 mt-4 hidden">✅ Chave copiada com sucesso!</p>
+        </div>
+    </div>
+
+    <!--MODAL MAP-->
+    <div id="map-modal" class="fixed inset-0 bg-black bg-opacity-70 flex items-center justify-center z-50 hidden">
+        <div
+            class="bg-white rounded-none md:rounded-2xl p-4 md:p-6 w-full h-full md:max-w-5xl md:h-auto shadow-xl relative flex flex-col">
+
+            <button onclick="closeMapModal()"
+                class="absolute h-8 w-8 top-3 right-3 bg-gray-100 hover:bg-gray-200 text-gray-600 hover:text-gray-800 rounded-full p-2 shadow-md transition">
+                <i class="fas fa-times text-xl"></i>
+            </button>
+
+            <h2 class="text-2xl md:text-3xl font-bold text-blue-900 text-center mb-4 md:mb-6 mt-10 md:mt-0">Rota no Mapa
+            </h2>
+
+            <div class="flex-1">
+                <iframe src="https://www.google.com/maps/d/u/0/embed?mid=12ANkQycbn0Z6dQMMlN8bXe_GoEDi-W0&ehbc=2E312F"
+                    width="100%" height="100%" class="rounded-none md:rounded-lg border border-blue-200 shadow-md">
+                </iframe>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <style>
+        @keyframes fall {
+            0% {
+                transform: translateY(-100px) rotate(0deg);
+                opacity: 0;
+            }
+
+            100% {
+                transform: translateY(100vh) rotate(360deg);
+                opacity: 1;
+            }
+        }
+
+        @keyframes scale-in {
+            from {
+                transform: scale(0.7);
+                opacity: 0;
+            }
+
+            to {
+                transform: scale(1);
+                opacity: 1;
+            }
+        }
+
+        .animate-heart {
+            animation: fall 3s linear forwards;
+            position: fixed;
+            top: -50px;
+            z-index: 1000;
+            pointer-events: none;
+            user-select: none;
+        }
+
+        .animate-scale-in {
+            animation: scale-in 0.4s ease-out;
+        }
+    </style>
+
+    <!-- Footer -->
+    <footer class="bg-blue-900 text-white py-12">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div class="md:col-span-2">
+                    <div class="flex items-center mb-4">
+                        <div
+                            class="bg-blue-700 text-white rounded-full w-12 h-12 flex items-center justify-center mr-3">
+                            <i class="fas fa-bus text-xl"></i>
+                        </div>
+                        <h3 class="text-xl font-bold title-font">Tia Leiza e Tio Thiago</h3>
+                    </div>
+                    <p class="text-blue-200 mb-4">
+                        Transporte escolar com segurança, pontualidade e carinho em Piraquara. Há mais de 10 anos
+                        cuidando do transporte das crianças como se fossem da nossa família.
+                    </p>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-blue-300 hover:text-white transition-colors">
+                            <i class="fab fa-facebook-f text-xl"></i>
+                        </a>
+                        <a href="#" class="text-blue-300 hover:text-white transition-colors">
+                            <i class="fab fa-instagram text-xl"></i>
+                        </a>
+                        <a href="https://wa.me/5541998367188" class="text-blue-300 hover:text-white transition-colors">
+                            <i class="fab fa-whatsapp text-xl"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div>
+                    <h4 class="text-lg font-bold mb-4">Links Rápidos</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#inicio" class="text-blue-300 hover:text-white transition-colors">Início</a></li>
+                        <li><a href="#escolas" class="text-blue-300 hover:text-white transition-colors">Escolas</a></li>
+                        <li><a href="#diferenciais"
+                                class="text-blue-300 hover:text-white transition-colors">Diferenciais</a></li>
+                        <li><a href="#depoimentos"
+                                class="text-blue-300 hover:text-white transition-colors">Depoimentos</a></li>
+                        <li><a href="#contato" class="text-blue-300 hover:text-white transition-colors">Contato</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="text-lg font-bold mb-4">Contato</h4>
+                    <ul class="space-y-3">
+                        <li class="flex items-start">
+                            <i class="fas fa-phone-alt mt-1 mr-3 text-blue-300"></i>
+                            <span>(41) 99836-7188</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-envelope mt-1 mr-3 text-blue-300"></i>
+                            <span>contato@tialeizaetiotiago.com.br</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-map-marker-alt mt-1 mr-3 text-blue-300"></i>
+                            <span>Piraquara, Paraná</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="border-t border-blue-800 mt-10 pt-6 text-center text-blue-300 text-sm">
+                <p>© 2023 Transporte Escolar Tia Leiza e Tio Thiago. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Script para abrir/fechar FAQ -->
+    <script>
+        document.querySelectorAll('.accordion-button').forEach(button => {
+            button.addEventListener('click', () => {
+                const content = button.nextElementSibling;
+                const icon = button.querySelector('i');
+
+                if (content.style.maxHeight) {
+                    content.style.maxHeight = null;
+                    icon.classList.remove('rotate-180');
+                } else {
+                    document.querySelectorAll('.accordion-content').forEach(el => el.style.maxHeight = null);
+                    document.querySelectorAll('.accordion-button i').forEach(el => el.classList.remove('rotate-180'));
+
+                    content.style.maxHeight = content.scrollHeight + "px";
+                    icon.classList.add('rotate-180');
+                }
+            });
+        });
+
+        // Form submission
+        document.getElementById('contact-form').addEventListener('submit', function (e) {
+            e.preventDefault();
+            const name = document.getElementById('name').value;
+            const phone = document.getElementById('phone').value;
+            const school = document.getElementById('school').value;
+            const neighborhood = document.getElementById('neighborhood').value;
+            const age = document.getElementById('age').value;
+            const message = document.getElementById('message').value;
+
+            const text = `Olá Tia Leiza, gostaria de mais informações sobre o transporte escolar.%0A%0A*Nome:* ${name}%0A*Telefone:* ${phone}%0A*Escola:* ${school}%0A*Bairro:* ${neighborhood}%0A*Idade da criança:* ${age}%0A*Mensagem:* ${message || 'Nenhuma mensagem adicional'}`;
+
+            window.location.href = `https://wa.me/5541998367188?text=${text}`;
+        });
+
+        const icon = document.getElementById('img-icon');
+        const modal = document.getElementById('image-modal');
+        const modalImage = document.getElementById('modal-image-container');
+
+        let raining = false;
+
+        icon.addEventListener('click', () => {
+            modal.classList.remove('hidden');
+            startHeartRain();
+        });
+
+        modal.addEventListener('click', (e) => {
+            if (!modalImage.contains(e.target)) {
+                modal.classList.add('hidden');
+                stopHeartRain();
+            }
+        });
+
+        let rainInterval;
+
+        function startHeartRain() {
+            if (raining) return; // já está chovendo
+            raining = true;
+            rainInterval = setInterval(() => {
+                spawnHeart();
+            }, Math.random() * 300 + 200); // 200-500ms entre corações
+        }
+
+        function stopHeartRain() {
+            clearInterval(rainInterval);
+            raining = false;
+        }
+
+        function spawnHeart() {
+            const heart = document.createElement('div');
+            heart.textContent = '❤️';
+            heart.style.left = Math.random() * 100 + 'vw';
+            heart.style.fontSize = (Math.random() * 20 + 20) + 'px';
+            heart.classList.add('animate-heart');
+            document.body.appendChild(heart);
+
+            setTimeout(() => heart.remove(), 3000);
+        }
+
+        //MODAL PIX
+
+        function openPixModal() {
+            document.getElementById('pix-modal').classList.remove('hidden');
+        }
+
+        function closePixModal() {
+            document.getElementById('pix-modal').classList.add('hidden');
+        }
+
+        function copyPixKey() {
+            const pixKey = document.getElementById('pix-key').innerText;
+            navigator.clipboard.writeText(pixKey).then(() => {
+                const success = document.getElementById('copy-success');
+                success.classList.remove('hidden');
+                setTimeout(() => {
+                    success.classList.add('hidden');
+                }, 2000);
+            });
+        }
+
+        //MODAL MAP
+        function openMapModal() {
+            document.getElementById('map-modal').classList.remove('hidden');
+        }
+
+        function closeMapModal() {
+            document.getElementById('map-modal').classList.add('hidden');
+        }
+
+    </script>
+</body>
+
+</html>
